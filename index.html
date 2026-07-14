@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STARTER PACK 2026 — Система работы с брендами для блогеров и UGC-креаторов</title>
+    <meta name="description" content="Готовый набор инструментов для блогеров и UGC-креаторов. 9 глав, CRM, договоры, скрипты, 10 AI-промптов. Выходите на системный доход с брендов.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Floating ambient orbs -->
+<div class="orb orb-1"></div>
+<div class="orb orb-2"></div>
+<div class="orb orb-3"></div>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 1. HERO -->
+<!-- ═══════════════════════════════════════ -->
+<header class="hero section" id="hero">
+    <div class="container hero-inner">
+
+        <!-- Floating Mascot (Purple Carrot) -->
+        <div class="mascot-float mascot-hero" aria-hidden="true">
+            <svg viewBox="0 0 120 190" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="cb" x1="0" y1="0" x2=".3" y2="1">
+                        <stop offset="0%" stop-color="#a78bfa"/>
+                        <stop offset="100%" stop-color="#7c3aed"/>
+                    </linearGradient>
+                    <linearGradient id="lf" x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="0%" stop-color="#34d399"/>
+                        <stop offset="100%" stop-color="#10b981"/>
+                    </linearGradient>
+                </defs>
+                <!-- Leaves -->
+                <ellipse cx="44" cy="38" rx="13" ry="24" fill="url(#lf)" transform="rotate(-22,44,38)" opacity=".9"/>
+                <ellipse cx="60" cy="28" rx="11" ry="27" fill="url(#lf)"/>
+                <ellipse cx="76" cy="38" rx="13" ry="24" fill="url(#lf)" transform="rotate(22,76,38)" opacity=".9"/>
+                <!-- Body -->
+                <path d="M34 56Q28 92 38 132Q50 168 60 174Q70 168 82 132Q92 92 86 56Q80 44 60 42Q40 44 34 56Z" fill="url(#cb)"/>
+                <!-- Eyes -->
+                <circle cx="47" cy="82" r="6.5" fill="#fff"/>
+                <circle cx="73" cy="82" r="6.5" fill="#fff"/>
+                <circle cx="49" cy="81" r="3.2" fill="#1E1B4B"/>
+                <circle cx="75" cy="81" r="3.2" fill="#1E1B4B"/>
+                <circle cx="50.5" cy="79" r="1.3" fill="#fff"/>
+                <circle cx="76.5" cy="79" r="1.3" fill="#fff"/>
+                <!-- Smile -->
+                <path d="M47 102Q60 115 73 102" stroke="#1E1B4B" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+                <!-- Blush -->
+                <circle cx="38" cy="96" r="5.5" fill="#c4b5fd" opacity=".3"/>
+                <circle cx="82" cy="96" r="5.5" fill="#c4b5fd" opacity=".3"/>
+            </svg>
+        </div>
+
+        <div class="hero-badge">STARTER PACK 2026</div>
+        <h1 class="hero-title">Система работы с&nbsp;брендами для блогеров и&nbsp;UGC&#8209;креаторов</h1>
+        <p class="hero-subtitle">Полный набор: от&nbsp;упаковки профиля и&nbsp;поиска заказов до&nbsp;переговоров с&nbsp;брендами, юридических документов и&nbsp;выхода на&nbsp;международный рынок.</p>
+
+        <ul class="hero-benefits">
+            <li>9 глав базы знаний — от бизнес-моделей до международного рынка</li>
+            <li>CRM-трекер и калькулятор ER/CTR/CPM — считайте деньги, а не догадки</li>
+            <li>Готовые скрипты питчей и отработка возражений</li>
+            <li>2 шаблона договоров — юридическая защита от неоплат и правок</li>
+            <li>Полный блок бюрократии — самозанятость, чеки, маркировка, акты</li>
+            <li>10 AI-промптов — от анализа аудитории до аудита контента</li>
+            <li>Шаблоны ТЗ для Instagram и Telegram</li>
+        </ul>
+
+        <div class="hero-cta-row">
+            <a href="#offer" class="cta-button">Получить STARTER PACK</a>
+            <span class="cta-price">1 990 ₽</span>
+        </div>
+    </div>
+</header>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 2. ПРОБЛЕМА -->
+<!-- ═══════════════════════════════════════ -->
+<section class="section" id="problem">
+    <div class="container">
+        <h2 class="section-title">Знакомо?</h2>
+        <div class="problems-grid">
+            <div class="problem-card glass">
+                <div class="problem-icon">✕</div>
+                <p>Вы создаёте контент, но бренды вам не пишут. Охваты растут — доход нет.</p>
+            </div>
+            <div class="problem-card glass">
+                <div class="problem-icon">✕</div>
+                <p>Вы соглашаетесь на бартер, потому что не знаете, сколько стоит ваша работа.</p>
+            </div>
+            <div class="problem-card glass">
+                <div class="problem-icon">✕</div>
+                <p>Вы тратите часы на поиск информации о маркировке, договорах и налогах — и всё равно боитесь ошибиться.</p>
+            </div>
+            <div class="problem-card glass">
+                <div class="problem-icon">✕</div>
+                <p>Вы не умеете питчить бренды. Пишете — вам не отвечают.</p>
+            </div>
+            <div class="problem-card glass">
+                <div class="problem-icon">✕</div>
+                <p>Вы видите, как креаторы с меньшей аудиторией получают оплачиваемые контракты. А вы — нет.</p>
+            </div>
+            <div class="problem-card glass">
+                <div class="problem-icon">✕</div>
+                <p>Вы собираете советы из десятков Telegram-каналов — но собрать это в систему не получается.</p>
+            </div>
+        </div>
+        <div class="problem-bottom">
+            <p class="accent-text">Проблема не в вашем контенте. Проблема — в отсутствии коммерческой упаковки.</p>
+            <p>Бренды тратят миллионы на инфлюенс-маркетинг. Но они сотрудничают с теми, кто выглядит профессионально. Медиакит, прайс, договор, структурный питч — всё это решает, получите ли вы контракт или очередной игнор.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 3. РЕШЕНИЕ -->
+<!-- ═══════════════════════════════════════ -->
+<section class="section" id="solution">
+    <div class="container">
+        <h2 class="section-title">STARTER PACK — <span>готовая операционная система</span> креатора</h2>
+        <div class="solution-grid">
+            <div class="solution-card glass">
+                <div class="solution-number">0</div>
+                <div class="solution-label">часов на поиск информации</div>
+                <p>Всё найдено, проверено и структурировано. Вам остаётся взять и применить.</p>
+            </div>
+            <div class="solution-card glass">
+                <div class="solution-number">7+</div>
+                <div class="solution-label">лет экспертизы в одном сборнике</div>
+                <p>Не компиляция из интернета. Выжимка реального опыта агентства с миллионными бюджетами.</p>
+            </div>
+            <div class="solution-card glass">
+                <div class="solution-number solution-number-accent">∞</div>
+                <div class="solution-label">доступ навсегда</div>
+                <p>Купили один раз — пользуетесь без ограничений. Все обновления включены.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 4. ЧТО ВНУТРИ -->
+<!-- ═══════════════════════════════════════ -->
+<section class="section" id="contents">
+    <div class="container">
+        <h2 class="section-title">Что внутри <span>STARTER PACK</span></h2>
+        <p class="section-lead">7 разделов. Каждый закрывает конкретную задачу. Ничего лишнего.</p>
+
+        <div class="modules-list">
+
+            <article class="module">
+                <div class="module-header">
+                    <span class="module-num">01</span>
+                    <h3 class="module-title">📚 База знаний и инструкции — 9 глав</h3>
+                </div>
+                <div class="module-body">
+                    <p class="module-problem">Проблема: вы не понимаете, какая бизнес-модель подходит именно вам, и тратите месяцы на хаотичные действия.</p>
+                    <p class="module-benefit">Результат: за один вечер вы определяете свою модель монетизации и получаете пошаговый план выхода на доход.</p>
+                    <ul class="module-contents">
+                        <li>Глава 1. Три ключевые бизнес-модели креаторов в 2026 году</li>
+                        <li>Глава 2. Упаковка автора и система продаж 2026</li>
+                        <li>Глава 3. Сборник условий сотрудничества (Do's & Don'ts автора)</li>
+                        <li>Глава 4. ТОП-10 ошибок креатора</li>
+                        <li>Глава 5. Пошаговый план запуска UGC-автора</li>
+                        <li>Глава 5.2. Пошаговый план развития микроблогера</li>
+                        <li>Глава 6. Поиск заказов</li>
+                        <li>Глава 7. Выход блогера в международную среду</li>
+                        <li>Глава 8. Международный поиск UGC-заказов</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="module">
+                <div class="module-header">
+                    <span class="module-num">02</span>
+                    <h3 class="module-title">🛠️ Готовые инструменты — скопируй и работай</h3>
+                </div>
+                <div class="module-body">
+                    <p class="module-problem">Проблема: вы считаете ER на калькуляторе и ведёте учёт в заметках телефона.</p>
+                    <p class="module-benefit">Результат: профессиональные инструменты в Notion, которые можно скопировать и начать использовать сегодня.</p>
+                    <ul class="module-contents">
+                        <li>CRM-таблица для учёта рекламы, оплат и токенов маркировки</li>
+                        <li>Калькулятор автоматического расчёта ER, CTR и стоимости по CPM</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="module">
+                <div class="module-header">
+                    <span class="module-num">03</span>
+                    <h3 class="module-title">✉️ Скрипты коммуникации</h3>
+                </div>
+                <div class="module-body">
+                    <p class="module-problem">Проблема: вы не знаете, что написать бренду. Или пишете — и получаете отказ.</p>
+                    <p class="module-benefit">Результат: готовые скрипты, которые вы копируете и отправляете. Бренды воспринимают вас как профессионала.</p>
+                    <ul class="module-contents">
+                        <li>Конструктор писем: шаблоны холодных откликов</li>
+                        <li>Отработка возражений: перевод бренда с бартера на коммерческий бюджет</li>
+                        <li>Экспресс-бриф для бренда — структурируете коммуникацию с первого контакта</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="module">
+                <div class="module-header">
+                    <span class="module-num">04</span>
+                    <h3 class="module-title">📝 Шаблоны ТЗ (технических заданий)</h3>
+                </div>
+                <div class="module-body">
+                    <p class="module-problem">Проблема: бренд просит ТЗ, а вы не знаете, что туда включить. Начинаются бесконечные правки.</p>
+                    <p class="module-benefit">Результат: чёткие шаблоны, которые структурируют работу и защищают от переделок.</p>
+                    <ul class="module-contents">
+                        <li>Шаблон ТЗ для Instagram (Reels / Stories) — свет, продукт, тезисы, триггеры, ссылки</li>
+                        <li>Шаблон ТЗ для Telegram (Пост / Видеокружок) — крючок, переход, разметка, UTM</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="module">
+                <div class="module-header">
+                    <span class="module-num">05</span>
+                    <h3 class="module-title">⚖️ Юридический блок</h3>
+                </div>
+                <div class="module-body">
+                    <p class="module-problem">Проблема: вы работаете без договора. Или подписываете договор бренда, не понимая, что отдаёте все права навсегда.</p>
+                    <p class="module-benefit">Результат: юридическая защита от бесконечных правок, сдвигов сроков и неоплат.</p>
+                    <ul class="module-contents">
+                        <li>Шаблон договора со стороны блогера — защищает от правок и сдвигов дат</li>
+                        <li>Шаблон договора со стороны бренда — когда компания просит ваш вариант</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="module">
+                <div class="module-header">
+                    <span class="module-num">06</span>
+                    <h3 class="module-title">🎥 Сборник инструкций и полезных материалов</h3>
+                </div>
+                <div class="module-body">
+                    <p class="module-problem">Проблема: маркировка, самозанятость, чеки, счета, акты, монетизация площадок — не знаете, с чего начать.</p>
+                    <p class="module-benefit">Результат: каждый бюрократический процесс разложен пошагово. Делайте по инструкции — без юриста и бухгалтера.</p>
+                    <ul class="module-contents">
+                        <li>Регистрация самозанятости за 5 минут</li>
+                        <li>Формирование и отправка чеков бренду через «Мой налог»</li>
+                        <li>Выставление счёта юрлицу через «Мой налог»</li>
+                        <li>Создание закрывающих документов ИП</li>
+                        <li>Правовые советы для блогеров (плейлист)</li>
+                        <li>Маркировка рекламы 2026: получение токена, размещение erid, налог 3%</li>
+                        <li>Монетизация TikTok и YouTube — создание аккаунтов и выход на доход</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="module">
+                <div class="module-header">
+                    <span class="module-num">07</span>
+                    <h3 class="module-title">🤖 AI-промпты для контент-стратегии — 10 штук</h3>
+                </div>
+                <div class="module-body">
+                    <p class="module-problem">Проблема: вы сидите перед пустым экраном и не знаете, о чём снимать. Контент не приносит заказов.</p>
+                    <p class="module-benefit">Результат: AI генерирует стратегию, сценарии, тексты и аудит контента за вас. Для ChatGPT и Gemini.</p>
+                    <ul class="module-contents">
+                        <li>#1 Анализ аудитории</li>
+                        <li>#2 Распаковка личного бренда креатора</li>
+                        <li>#3 Генератор контент-стратегии под коммерческую нишу</li>
+                        <li>#4 Сценарный конструктор Reels/Shorts (правило 3s Retention)</li>
+                        <li>#5 Рерайтер рекламных тезисов в нативную подачу</li>
+                        <li>#6 Гипотеза быстрого старта</li>
+                        <li>#7 Коммерческая упаковка и витрина блога</li>
+                        <li>#8 Медиакит-инженер</li>
+                        <li>#9 Аудитор контента</li>
+                        <li>#10 Почему бренды игнорируют ваши предложения</li>
+                    </ul>
+                </div>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 5. ЧТО ПОЛУЧИТ ПОКУПАТЕЛЬ -->
+<!-- ═══════════════════════════════════════ -->
+<section class="section" id="results">
+    <div class="container">
+        <h2 class="section-title">Что вы <span>получите</span></h2>
+        <div class="results-grid">
+            <div class="result-item glass">
+                <span class="result-check">✔</span>
+                <p>Получите готовую коммерческую упаковку, с которой бренды воспринимают вас как профессионала</p>
+            </div>
+            <div class="result-item glass">
+                <span class="result-check">✔</span>
+                <p>Сэкономите 3–6 месяцев хаотичного поиска — всё собрано и готово к внедрению</p>
+            </div>
+            <div class="result-item glass">
+                <span class="result-check">✔</span>
+                <p>Избежите штрафов за немаркированную рекламу — пошаговые инструкции по erid</p>
+            </div>
+            <div class="result-item glass">
+                <span class="result-check">✔</span>
+                <p>Сможете назвать свою цену и аргументировать её — калькулятор CPM и скрипты</p>
+            </div>
+            <div class="result-item glass">
+                <span class="result-check">✔</span>
+                <p>Получите систему привлечения брендов — от питча до договора и оплаты</p>
+            </div>
+            <div class="result-item glass">
+                <span class="result-check">✔</span>
+                <p>Сэкономите 50 000–150 000 ₽ на юристе, бухгалтере и стратеге</p>
+            </div>
+            <div class="result-item glass">
+                <span class="result-check">✔</span>
+                <p>Сможете выйти на международный рынок — 2 главы по работе с зарубежными брендами</p>
+            </div>
+            <div class="result-item glass">
+                <span class="result-check">✔</span>
+                <p>Получите 10 AI-промптов, заменяющих контент-стратега</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 6. ЭКОНОМИЧЕСКИЙ ЭФФЕКТ -->
+<!-- ═══════════════════════════════════════ -->
+<section class="section" id="economics">
+    <div class="container">
+        <h2 class="section-title"><span>Экономический</span> эффект</h2>
+        <p class="section-lead">Сколько стоит собрать всё это самостоятельно?</p>
+
+        <div class="economics-grid">
+            <div class="econ-card glass">
+                <div class="econ-value">80–120 ч</div>
+                <div class="econ-label">поиска и систематизации</div>
+                <p>Разбросанные советы, противоречивые гайды и устаревшие шаблоны.</p>
+            </div>
+            <div class="econ-card glass">
+                <div class="econ-value">15 000 ₽</div>
+                <div class="econ-label">юрист за один договор</div>
+                <p>Вам нужно минимум два. Плюс акты и консультации по маркировке.</p>
+            </div>
+            <div class="econ-card glass">
+                <div class="econ-value">150 000 ₽</div>
+                <div class="econ-label">контент-стратег на месяц</div>
+                <p>10 AI-промптов заменяют 80% его рутинной работы.</p>
+            </div>
+            <div class="econ-card glass">
+                <div class="econ-value">∞</div>
+                <div class="econ-label">стоимость ошибок без системы</div>
+                <p>Без договора, неправильная маркировка, заниженный прайс — потери каждый месяц.</p>
+            </div>
+        </div>
+
+        <div class="econ-comparison">
+            <div class="econ-total">
+                <div class="econ-total-label">Самостоятельно:</div>
+                <div class="econ-total-value econ-total-old">200 000+ ₽</div>
+            </div>
+            <div class="econ-vs">→</div>
+            <div class="econ-total">
+                <div class="econ-total-label">STARTER PACK:</div>
+                <div class="econ-total-value econ-total-new">1 990 ₽</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 7. ДЛЯ КОГО -->
+<!-- ═══════════════════════════════════════ -->
+<section class="section" id="audience">
+    <div class="container">
+        <h2 class="section-title">Для кого этот <span>STARTER PACK</span></h2>
+        <div class="audience-grid">
+            <div class="audience-card glass">
+                <div class="audience-marker">→</div>
+                <p><strong>Микроблогеры</strong>, которые хотят перейти от бесплатных коллабораций к оплачиваемым контрактам</p>
+            </div>
+            <div class="audience-card glass">
+                <div class="audience-marker">→</div>
+                <p><strong>UGC-креаторы</strong>, которые хотят системно зарабатывать на создании контента для брендов</p>
+            </div>
+            <div class="audience-card glass">
+                <div class="audience-marker">→</div>
+                <p><strong>Начинающие авторы</strong>, которые не знают, с чего начать монетизацию</p>
+            </div>
+            <div class="audience-card glass">
+                <div class="audience-marker">→</div>
+                <p><strong>Действующие блогеры</strong>, которые работают без системы и продают себя дешевле рынка</p>
+            </div>
+            <div class="audience-card glass">
+                <div class="audience-marker">→</div>
+                <p><strong>Креаторы с амбициями на международный рынок</strong>, которые хотят зарабатывать в валюте</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 8. ДОВЕРИЕ -->
+<!-- ═══════════════════════════════════════ -->
+<section class="section" id="trust">
+    <div class="container">
+        <h2 class="section-title">Почему этому можно <span>доверять</span></h2>
+
+        <div class="trust-block">
+            <div class="trust-card glass">
+                <div class="trust-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                </div>
+                <h3>Бехтерева Екатерина</h3>
+                <p>Руководитель и основатель инфлюенс-агентства «Фиолетовая морковь». Более 7 лет в работе с блогерами, рекламными интеграциями и продвижением брендов.</p>
+            </div>
+            <div class="trust-stats">
+                <div class="trust-stat glass">
+                    <div class="trust-stat-number">7+</div>
+                    <div class="trust-stat-label">лет на рынке инфлюенс-маркетинга</div>
+                </div>
+                <div class="trust-stat glass">
+                    <div class="trust-stat-number">100+</div>
+                    <div class="trust-stat-label">реализованных рекламных кампаний</div>
+                </div>
+                <div class="trust-stat glass">
+                    <div class="trust-stat-number">₽₽₽</div>
+                    <div class="trust-stat-label">миллионные бюджеты под управлением</div>
+                </div>
+            </div>
+        </div>
+
+        <p class="trust-bottom">В этом Starter Pack собраны инструменты, шаблоны и инструкции, которые я использую в работе с клиентами, блогерами и собственными проектами. Я знаю всю изнанку инфлюенс-рынка со стороны бизнеса — какие питчи работают, что бренды хотят видеть и какие ошибки стоят вам контрактов.</p>
+    </div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 9. ВОЗРАЖЕНИЯ -->
+<!-- ═══════════════════════════════════════ -->
+<section class="section" id="objections">
+    <div class="container">
+        <h2 class="section-title">Сомневаетесь?</h2>
+
+        <div class="objections-list">
+            <div class="objection glass">
+                <div class="objection-q">«Я найду это бесплатно в интернете»</div>
+                <div class="objection-a">Можете. Потратите 3–6 месяцев на сбор разрозненных советов, часть из которых устарела. STARTER PACK — это 7 лет реального опыта агентства, сжатые в готовую систему. Ваше время стоит дороже, чем 1 990 ₽.</div>
+            </div>
+            <div class="objection glass">
+                <div class="objection-q">«Мне это не подойдёт»</div>
+                <div class="objection-a">Если вы создаёте контент и хотите зарабатывать на этом — подойдёт. Неважно, 500 у вас подписчиков или 50 000. UGC-креаторам не нужна большая аудитория — нужна правильная упаковка.</div>
+            </div>
+            <div class="objection glass">
+                <div class="objection-q">«У меня нет времени разбираться»</div>
+                <div class="objection-a">Именно поэтому вам нужен STARTER PACK. Скрипты — копируете. Договоры — копируете. Промпты — вставляете в ChatGPT. Время внедрения базовой упаковки — один вечер.</div>
+            </div>
+            <div class="objection glass">
+                <div class="objection-q">«Это слишком дорого»</div>
+                <div class="objection-a">1 990 ₽ — это стоимость кофе за неделю. Один оплаченный контракт окупит STARTER PACK в 10–50 раз. Вопрос — можете ли вы позволить себе не купить и продолжать терять деньги.</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 10. ОФФЕР -->
+<!-- ═══════════════════════════════════════ -->
+<section class="section" id="offer">
+    <div class="container">
+        <div class="offer-wrap">
+            <div class="offer-header">
+                <h2 class="offer-title">Получите STARTER PACK сегодня</h2>
+                <p class="offer-sub">Всё, что нужно для системного заработка на контенте — в одном месте.</p>
+            </div>
+
+            <div class="offer-contents">
+                <div class="offer-item">
+                    <span class="offer-item-check">✔</span>
+                    <span>База знаний: 9 глав — от бизнес-моделей до международного рынка</span>
+                    <span class="offer-item-value">— 25 000 ₽</span>
+                </div>
+                <div class="offer-item">
+                    <span class="offer-item-check">✔</span>
+                    <span>2 готовых инструмента (CRM-трекер + Калькулятор ER/CTR/CPM)</span>
+                    <span class="offer-item-value">— 15 000 ₽</span>
+                </div>
+                <div class="offer-item">
+                    <span class="offer-item-check">✔</span>
+                    <span>Скрипты питчей, отработка возражений, экспресс-бриф</span>
+                    <span class="offer-item-value">— 10 000 ₽</span>
+                </div>
+                <div class="offer-item">
+                    <span class="offer-item-check">✔</span>
+                    <span>Шаблоны ТЗ для Instagram и Telegram</span>
+                    <span class="offer-item-value">— 5 000 ₽</span>
+                </div>
+                <div class="offer-item">
+                    <span class="offer-item-check">✔</span>
+                    <span>2 юридических шаблона договоров</span>
+                    <span class="offer-item-value">— 30 000 ₽</span>
+                </div>
+                <div class="offer-item">
+                    <span class="offer-item-check">✔</span>
+                    <span>Сборник видео-инструкций (маркировка, налоги, акты, монетизация)</span>
+                    <span class="offer-item-value">— 10 000 ₽</span>
+                </div>
+                <div class="offer-item">
+                    <span class="offer-item-check">✔</span>
+                    <span>10 AI-промптов для контент-стратегии и упаковки</span>
+                    <span class="offer-item-value">— 15 000 ₽</span>
+                </div>
+            </div>
+
+            <div class="offer-total-row">
+                <div>
+                    <div class="offer-total-label">Общая ценность:</div>
+                    <div class="offer-total-old">110 000 ₽</div>
+                </div>
+                <div>
+                    <div class="offer-total-label">Ваша цена сегодня:</div>
+                    <div class="offer-total-new">1 990 ₽</div>
+                </div>
+            </div>
+
+            <div class="offer-urgency">Цена действует в рамках запуска. После — стоимость будет увеличена без предупреждения.</div>
+
+            <div class="offer-cta">
+                <a href="#" class="cta-button cta-button-large">Купить STARTER PACK за 1 990 ₽</a>
+                <p class="oferta-note">Нажимая на кнопку «Оплатить», вы принимаете условия <a href="#" class="oferta-link">Публичной оферты</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 11. FAQ -->
+<!-- ═══════════════════════════════════════ -->
+<section class="section" id="faq">
+    <div class="container">
+        <h2 class="section-title">Частые вопросы</h2>
+
+        <div class="faq-list">
+            <details class="faq-item">
+                <summary class="faq-q">В каком формате предоставляется STARTER PACK?</summary>
+                <div class="faq-a">Основные материалы в Notion — дублируете к себе в аккаунт. Шаблоны ТЗ и договоры — в Google Docs. Видео-инструкции — ссылки на YouTube.</div>
+            </details>
+            <details class="faq-item">
+                <summary class="faq-q">Нужен ли большой блог, чтобы начать зарабатывать?</summary>
+                <div class="faq-a">Нет. UGC-креаторам аудитория не нужна — важна упаковка и умение питчить. Микроблогерам с 1 000+ подписчиков STARTER PACK даёт всё для первых оплаченных интеграций.</div>
+            </details>
+            <details class="faq-item">
+                <summary class="faq-q">Подойдёт ли, если я только начинаю?</summary>
+                <div class="faq-a">Да. Внутри пошаговый план запуска для UGC-авторов и отдельный план для микроблогеров — от нуля до первого контракта.</div>
+            </details>
+            <details class="faq-item">
+                <summary class="faq-q">Актуальны ли материалы на 2026 год?</summary>
+                <div class="faq-a">Да. Всё обновлено с учётом законодательства 2026 — маркировка, ОРД, налог на рекламу 3% и международные бренды.</div>
+            </details>
+            <details class="faq-item">
+                <summary class="faq-q">Нужно ли регистрировать самозанятость?</summary>
+                <div class="faq-a">Для легальной работы с брендами — да. Внутри видео-инструкция на 5 минут.</div>
+            </details>
+            <details class="faq-item">
+                <summary class="faq-q">Сколько времени займёт внедрение?</summary>
+                <div class="faq-a">Базовую упаковку можно внедрить за один вечер. Полный план — несколько недель в зависимости от направления.</div>
+            </details>
+            <details class="faq-item">
+                <summary class="faq-q">Будут ли обновления?</summary>
+                <div class="faq-a">Да. Материалы в Notion обновляются, вы автоматически получаете актуальную версию.</div>
+            </details>
+            <details class="faq-item">
+                <summary class="faq-q">Можно ли использовать для агентства?</summary>
+                <div class="faq-a">STARTER PACK для личного использования. Для агентства или перепродажи — свяжитесь для обсуждения коммерческой лицензии.</div>
+            </details>
+            <details class="faq-item">
+                <summary class="faq-q">Что если мне не подойдёт?</summary>
+                <div class="faq-a">Если вы создаёте контент и хотите зарабатывать — подойдёт. Покрывает все этапы: от упаковки до оплаты.</div>
+            </details>
+            <details class="faq-item">
+                <summary class="faq-q">Как происходит оплата?</summary>
+                <div class="faq-a">После нажатия «Купить» → страница оплаты. Сразу после оплаты — доступ ко всем материалам.</div>
+            </details>
+        </div>
+    </div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 12. ФИНАЛЬНЫЙ CTA -->
+<!-- ═══════════════════════════════════════ -->
+<section class="section final-cta-section" id="final">
+    <div class="container">
+        <h2 class="final-title">Каждый день без системы — это упущенные контракты</h2>
+        <p class="final-text">Пока вы думаете, бренды подписывают креаторов, которые упакованы лучше вас. Не лучше снимают — лучше упакованы.</p>
+        <div class="final-price-row">
+            <span class="final-old-price">110 000 ₽</span>
+            <span class="final-new-price">1 990 ₽</span>
+        </div>
+        <a href="#" class="cta-button cta-button-large">Забрать STARTER PACK →</a>
+        <p class="oferta-note">Нажимая на кнопку «Оплатить», вы принимаете условия <a href="#" class="oferta-link">Публичной оферты</a></p>
+        <p class="final-note">Цена запуска. Повышение — без предупреждения.</p>
+    </div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- FOOTER -->
+<!-- ═══════════════════════════════════════ -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <p class="footer-brand">Инфлюенс-агентство «Фиолетовая морковь»</p>
+        </div>
+        <div class="footer-legal">
+            <p class="footer-legal-text">ИП Бехтерева Екатерина Николаевна&nbsp;&nbsp;|&nbsp;&nbsp;ИНН: 027501432906&nbsp;&nbsp;|&nbsp;&nbsp;ОГРНИП: 320028000100045&nbsp;&nbsp;|&nbsp;&nbsp;Юридический адрес: 450015, Россия, Респ. Башкортостан, г. Уфа, ул. Мустая Карима, д. 50, кв. 65&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#" class="oferta-link">Публичная оферта</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="mailto:ek.behtereva2017@yandex.ru" class="oferta-link">ek.behtereva2017@yandex.ru</a>&nbsp;&nbsp;|&nbsp;&nbsp;© 2026 Все права защищены.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
