@@ -413,17 +413,15 @@ body::before {
 }
 
 .module-body {
-    padding: var(--sp-24);
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.4s ease, padding 0.3s ease;
-    padding-top: 0;
-    padding-bottom: 0;
+    transition: max-height 0.5s ease, padding 0.3s ease;
+    padding: 0 var(--sp-24);
 }
 
 .module.open .module-body {
-    padding-top: var(--sp-24);
-    padding-bottom: var(--sp-24);
+    max-height: 2000px;
+    padding: var(--sp-24);
 }
 
 /* Arrow indicator */
