@@ -47,4 +47,41 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         });
     }
+
+    /* ── Accordion modules ── */
+    const modules = document.querySelectorAll('.module');
+    modules.forEach((mod, idx) => {
+        const header = mod.querySelector('.module-header');
+        const body = mod.querySelector('.module-body');
+        if (!header || !body) return;
+
+        // First module open by default
+        if (idx === 0) {
+            mod.classList.add('open');
+            body.style.maxHeight = body.scrollHeight + 'px';
+        }
+
+        header.style.cursor = 'pointer';
+        header.setAttribute('role', 'button');
+        header.setAttribute('aria-expanded', idx === 0 ? 'true' : 'false');
+
+        header.addEventListener('click', () => {
+            const isOpen = mod.classList.contains('open');
+            // Close all
+            modules.forEach(m => {
+                m.classList.remove('open');
+                const b = m.querySelector('.module-body');
+                if (b) b.style.maxHeight = '0';
+                const h = m.querySelector('.module-header');
+                if (h) h.setAttribute('aria-expanded', 'false');
+            });
+            // Open clicked if it was closed
+            if (!isOpen) {
+                mod.classList.add('open');
+                body.style.maxHeight = body.scrollHeight + 'px';
+                header.setAttribute('aria-expanded', 'true');
+            }
+        });
+    });
 });
+
