@@ -412,7 +412,39 @@ body::before {
     font-weight: 700;
 }
 
-.module-body { padding: var(--sp-24); }
+.module-body {
+    padding: var(--sp-24);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.3s ease;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.module.open .module-body {
+    padding-top: var(--sp-24);
+    padding-bottom: var(--sp-24);
+}
+
+/* Arrow indicator */
+.module-header::after {
+    content: '+';
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: var(--primary-light);
+    margin-left: auto;
+    flex-shrink: 0;
+    transition: transform 0.3s ease;
+}
+
+.module.open .module-header::after {
+    transform: rotate(45deg);
+}
+
+.module-header:hover {
+    background: rgba(139,92,246,0.12);
+}
+
 
 .module-problem {
     font-size: 0.9375rem;
